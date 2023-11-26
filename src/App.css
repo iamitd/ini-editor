@@ -1,0 +1,44 @@
+/* App.css */
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin-right: 20px;
+}
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  margin-right: 10px;
+}
+
+.saved-files-container {
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.saved-files-heading {
+  font-size: 20px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+.saved-files-list {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-file-item {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.saved-file-item:hover {
+  text-decoration: underline;
+  color: blue;
+}
